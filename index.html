@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Khojo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+
+    <header id="header" class="site-header border-bottom border-dark">
+      <nav id="header-nav" class="navbar navbar-expand-lg px-3">
+        <div class="container">
+          <a class="navbar-brand d-lg-none" href="index.html">
+            <h2>KritiKala</h2>
+          </a>
+          <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+            <div class="offcanvas-header px-4 pb-0">
+              <a class="navbar-brand" href="index.html">
+                <h2>KritiKala</h2>
+              </a>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul id="navbar" class="navbar-nav w-100 d-flex justify-content-between align-items-center">
+                
+                <ul class="list-unstyled d-lg-flex justify-content-md-between align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link ms-0" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ms-0" href="#products">Product</a>
+                  </li>              
+                  <li class="nav-item">
+                    <a class="nav-link ms-0" href="#testimonials">Testimonials</a>
+                  </li>              
+                </ul>
+                
+                <a class="navbar-brand d-none d-lg-block me-0" href="index.html">
+                  <h2>KritiKala</h2>
+                </a>
+
+                <ul class="list-unstyled d-lg-flex justify-content-between align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link me-0" href="#blog-posts">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-0" href="#faqs">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-0" href="#footer">Contact</a>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="billboard" class="position-relative overflow-hidden">
+      <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(images/banner-image.png); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="banner-content">
+                    <h2 style="color: white;">Discover Exquisite Handicrafts</h2>
+                    <p style="color: white;" class="fs-5">Indulge in the beauty of handcrafted treasures, meticulously crafted by skilled artisans.</p>
+                    <a href="#" class="btn btn-outline">Explore Now</a>
+                  </div>
+                </div>
+                <div class="col-md-5"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url(images/banner-image2.png); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center;">
+            <div class="container">
+              <div class="row">
+                <div class="offset-md-6 col-md-6">
+                  <div class="banner-content">
+                    <h2 style="color: white;">Elevate Your Space with Handcrafted Decor</h2>
+                    <p style="color: white;" class="fs-5">Transform your home with unique handcrafted decor pieces that tell a story of artistry and tradition.</p>
+                    <a href="#" class="btn btn-outline">Explore Now</a>
+                  </div>
+                </div>
+                <div class="col-md-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider-pagination position-absolute text-center"></div>
+      </div>
+    </section>
+    
+    <section id="about" class="padding-xlarge">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <h3 class="py-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">Welcome to our Handicraft Haven, your source for exquisite, handcrafted treasures.</h3>
+            <p data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">At Handicraft Haven, we celebrate the artistry and tradition of handmade crafts. Each piece in our collection is lovingly crafted by skilled artisans, using age-old techniques passed down through generations. From intricate wood carvings to delicate ceramic pottery, our curated selection showcases the beauty and craftsmanship of handmade treasures. Embark on a journey with us to explore the rich tapestry of handcrafted wonders.</p>
+            <a href="#" class="btn me-5">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="products" class="product-store position-relative">
+      <div class="container display-header d-flex flex-wrap justify-content-between pb-4">
+        <h3 class="mt-3">Featured Handcrafted Items</h3>
+        <div class="btn-right d-flex flex-wrap align-items-center">
+          <a href="#" class="btn me-5">Browse All Items</a>
+          <div class="swiper-buttons">
+            <button class="swiper-prev product-carousel-prev me-2">
+              <svg width="41" height="41"><use xlink:href="#angle-left"></use></svg>
+            </button>
+            <button class="swiper-next product-carousel-next">
+              <svg width="41" height="41"><use xlink:href="#angle-right"></use></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper product-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Wooden Bowl</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$50</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handcrafted Ceramic Mug</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card position-relative">
+              <div class="image-holder zoom-effect">
+                <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
+                <div class="cart-concern position-absolute">
+                  <div class="cart-button">
+                    <a href="#" class="btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail text-center pt-3 pb-2">
+                <h5 class="card-title fs-5 text-uppercase">
+                  <a href="#">Handwoven Basket</a>
+                </h5>
+                <span class="item-price text-primary fs-3 fw-light">$35</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="testimonials" class="position-relative padding-xlarge">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <h3 class="text-center mb-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">What Our Customers Say</h3>
+            <div class="review-content position-relative" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">
+              <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide text-center d-flex justify-content-center">
+                    <div class="review-item">
+                      <blockquote class="fs-3 fw-light">"Absolutely love the craftsmanship of the handwoven baskets I purchased. They add such a unique touch to my home decor."</blockquote>
+                      <div class="author-detail">
+                        <div class="name fw-bold text-uppercase pt-2">Emily Thompson</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide text-center d-flex justify-content-center">
+                    <div class="review-item">
+                      <blockquote class="fs-3 fw-light">"The intricate designs of the hand-carved wooden figurines are truly breathtaking. They make for wonderful gifts for my friends and family."</blockquote>
+                      <div class="author-detail">
+                        <div class="name fw-bold text-uppercase pt-2">Michael Johnson</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide text-center d-flex justify-content-center">
+                    <div class="review-item">
+                      <blockquote class="fs-3 fw-light">"The quality of the hand-painted pottery I received exceeded my expectations. Each piece tells a story and adds character to my kitchen."</blockquote>
+                      <div class="author-detail">
+                        <div class="name fw-bold text-uppercase pt-2">Sophia Davis</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-buttons text-center mt-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
+              <button class="swiper-prev testimonial-arrow-prev me-2">
+                <svg width="41" height="41"><use xlink:href="#arrow-left"></use></svg>
+              </button>
+              <span>|</span>
+              <button class="swiper-next testimonial-arrow-next ms-2">
+                <svg width="41" height="41"><use xlink:href="#arrow-right"></use></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="blog-posts" class="padding-xlarge pb-0" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
+      <div class="container">
+        <div class="display-header d-flex flex-wrap justify-content-between align-items-center pb-4">
+          <h3 class="display-7 mt-3">Handicraft Services</h3>
+          <a href="#" class="btn">View All</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-2">
+            <div class="card border-0 rounded-0">
+              <div class="card-body text-capitalize">
+                <div class="card-meta fs-6">
+                  <span class="meta-category"> <a href="#">Jewelry</a></span>
+                </div>
+                <h4 class="card-title">
+                  <a href="#">Custom Handmade Jewelry: A Unique Statement Piece</a>
+                </h4>
+                <div class="price-comparison">
+                  <span class="current-price">$50</span>
+                  <span class="original-price"><del>$70</del></span>
+                </div>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card border-0 rounded-0">
+              <div class="card-body text-capitalize">
+                <div class="card-meta fs-6">
+                  <span class="meta-category"> <a href="#">Home Décor</a></span>
+                </div>
+                <h4 class="card-title">
+                  <a href="#">Artisanal Home Décor: Elevate Your Space with Handcrafted Beauty</a>
+                </h4>
+                <div class="price-comparison">
+                  <span class="current-price">$50</span>
+                  <span class="original-price"><del>$70</del></span>
+                </div>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card border-0 rounded-0">
+              <div class="card-body text-capitalize">
+                <div class="card-meta fs-6">
+                  <span class="meta-category"> <a href="#">Fashion Accessories</a></span>
+                </div>
+                <h4 class="card-title">
+                  <a href="#">Handcrafted Fashion Accessories: Express Your Style with Unique Flair</a>
+                </h4>
+                <div class="price-comparison">
+                  <span class="current-price">$50</span>
+                  <span class="original-price"><del>$70</del></span>
+                </div>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faqs" class="padding-xlarge">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <h3 class="text-center mb-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">Frequently Asked Questions</h3>
+            <div class="accordion accordion-flush" id="accordionFlush" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-headingOne3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                    What materials are used in your handicrafts?
+                  </button>
+                </h4>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Our handicrafts are crafted from a variety of materials including wood, metal, fabric, clay, and more. Each piece is meticulously crafted by skilled artisans with attention to detail.</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-headingTwo3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
+                    Do you customize orders for specific requirements?
+                  </button>
+                </h4>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Yes, we offer customization for specific requirements. Please reach out to us with your customization requests, and our team will work with you to create a bespoke piece tailored to your preferences.</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="flush-headingThree3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
+                    What is your shipping and delivery process?
+                  </button>
+                </h4>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>We offer worldwide shipping with trusted carriers. Once your order is placed, our team carefully prepares your handicraft for shipment, ensuring it reaches you in perfect condition. You can track your order and expect timely delivery.</p>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section id="banner" data-aos="fade" data-aos-once="true">
+      <div class="banner-content-1 position-relative" style="background:url('images/img.jpg') no-repeat left; background-size: cover; background-position: center; height: 100%;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
+          <h2>Home Decoration</h2>
+        </div>
+      </div>
+      <div class="banner-content-2 position-relative" style="background:url('images//img.jpg') no-repeat left; background-size: cover; background-position: center; height: 100%;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
+          <h2>Specialty</h2>
+        </div>
+      </div>
+      <div class="banner-content-3 position-relative" style="background:url('images//img.jpg') no-repeat left; background-size: cover; background-position: left; height: 100%;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
+          <h2>Gift Sets</h2>
+        </div>
+      </div>
+    </section>
+    
+    <footer id="footer" class="overflow-hidden padding-xlarge pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="footer-top-area pb-5">
+            <div class="row d-flex flex-wrap justify-content-between">
+              <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
+                <div class="footer-menu">
+                  <h2>KritiKala</h2>
+                  <p>Where Tradition Meets Innovation, Every Creation a Testament to Handcrafted Artistry</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1200" data-aos-once="true">
+                <div class="footer-menu">
+                  <h4 class="widget-title pb-2">Quick Links</h4>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item pb-2">
+                      <a href="#about">About</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#products">Product</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#blog-post">Service</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#footer">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1400" data-aos-once="true">
+                <div class="footer-menu contact-item">
+                  <h4 class="widget-title pb-2">Contact info</h4>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item pb-2">
+                      <a href="#">Khojo Right Now, Jaipur</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">+91 7412846037</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="mailto:">help@khojo.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1600" data-aos-once="true">
+                <div class="footer-menu">
+                  <h4 class="widget-title pb-2">Social info</h4>
+                  <p>You can follow us on our social platforms to get updates.</p>
+                  <div class="social-links">
+                    <ul class="d-flex list-unstyled">
+                      <li>
+                        <a href="#">
+                          <svg class="facebook">
+                            <use xlink:href="#facebook">
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="instagram">
+                            <use xlink:href="#instagram">
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="twitter">
+                            <use xlink:href="#twitter">
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="linkedin">
+                            <use xlink:href="#linkedin">
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="youtube">
+                            <use xlink:href="#youtube">
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </footer>
+    <div id="footer-bottom">
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between">
+          <div class="col-12">
+            <div class="copyright">
+              <p>© Copyright 2024 Khojo. Design by <a href="#" target="_blank"><b>RamSwami0021</b></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
