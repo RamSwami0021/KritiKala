@@ -24,7 +24,7 @@
     ================================================== -->
   <script src="js/modernizr.js"></script>
   <style>
-    .coustom{
+    .coustom {
       border: white;
       outline: #fff;
       color: #000;
@@ -98,7 +98,7 @@
                 <div class="banner-content">
                   <h2 style="color: white;">Discover Exquisite Handicrafts</h2>
                   <p style="color: white;" class="fs-5">Indulge in the beauty of handcrafted treasures, meticulously
-                  </br>crafted by skilled artisans.</p>
+                    </br>crafted by skilled artisans.</p>
                   <a href="#" class="btn coustom">Explore Now</a>
                 </div>
               </div>
@@ -149,33 +149,38 @@
       <h3 class="mt-3">Featured Handcrafted Items</h3>
       <div class="btn-right d-flex flex-wrap align-items-center">
         <a href="#" class="btn me-5">Browse All Items</a>
-        <div class="swiper-buttons">
-          <button class="swiper-prev product-carousel-prev me-2">
-            <svg width="41" height="41">
-              <use xlink:href="#angle-left"></use>
-            </svg>
+        <div class="swiper-buttons d-flex">
+          <button class="swiper-prev product-carousel-prev me-2" style="border: none;">
+            <img width="20%" src="/images/right.png" alt="" style="transform: rotate(180deg);">
           </button>
-          <button class="swiper-next product-carousel-next">
-            <svg width="41" height="41">
-              <use xlink:href="#angle-right"></use>
-            </svg>
+          <button class="swiper-next product-carousel-next" style="border: none;">
+            <img width="20%" src="/images/right.png" alt="">
           </button>
         </div>
       </div>
     </div>
+    <style>
+      .swiper-prev:hover,
+      .swiper-next:hover {
+        border: none;
+        background-color: transparent;
+      }
+    </style>
     <div class="swiper product-swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="product-card position-relative">
             <div class="image-holder zoom-effect">
               <img src="images/product.jpg" alt="product-item" class="img-fluid zoom-in">
-              <div class="cart-concern position-absolute">
+              <div class="position-absolute">
                 <div class="cart-button">
                   <div class="floating-button-container">
                     <button id="main-btn" class="main-btn">+</button>
                     <div class="sub-buttons">
-                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i> WhatsApp</button>
-                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i> Call</button>
+                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</button>
+                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                        Call</button>
                     </div>
                   </div>
                 </div>
@@ -193,13 +198,15 @@
           <div class="product-card position-relative">
             <div class="image-holder zoom-effect">
               <img src="images/product1.jpg" alt="product-item" class="img-fluid zoom-in">
-              <div class="cart-concern position-absolute">
+              <div class="position-absolute">
                 <div class="cart-button">
                   <div class="floating-button-container">
                     <button id="main-btn" class="main-btn">+</button>
                     <div class="sub-buttons">
-                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i> WhatsApp</button>
-                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i> Call</button>
+                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</button>
+                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                        Call</button>
                     </div>
                   </div>
                 </div>
@@ -217,13 +224,15 @@
           <div class="product-card position-relative">
             <div class="image-holder zoom-effect">
               <img src="images/product2.jpg" alt="product-item" class="img-fluid zoom-in">
-              <div class="cart-concern position-absolute">
+              <div class="position-absolute">
                 <div class="cart-button">
                   <div class="floating-button-container">
                     <button id="main-btn" class="main-btn">+</button>
                     <div class="sub-buttons">
-                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i> WhatsApp</button>
-                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i> Call</button>
+                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</button>
+                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                        Call</button>
                     </div>
                   </div>
                 </div>
@@ -241,14 +250,16 @@
           <div class="product-card position-relative">
             <div class="image-holder zoom-effect">
               <img src="images/product3.jpg" alt="product-item" class="img-fluid zoom-in">
-              <div class="cart-concern position-absolute">
+              <div class="position-absolute">
                 <div class="cart-button">
                   <!-- <a href="#" class="btn">Add to Cart</a> -->
                   <div class="floating-button-container">
                     <button id="main-btn" class="main-btn">+</button>
                     <div class="sub-buttons">
-                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i> WhatsApp</button>
-                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i> Call</button>
+                      <button class="sub-btn whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</button>
+                      <button class="sub-btn call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                        Call</button>
                     </div>
                   </div>
                 </div>
@@ -326,70 +337,95 @@
   </section>
 
   <section id="blog-posts" class="padding-xlarge pb-0" data-aos="fade" data-aos-easing="ease-in"
-  data-aos-duration="1000" data-aos-once="true">
-  <div class="container">
+    data-aos-duration="1000" data-aos-once="true">
+    <div class="container">
       <div class="display-header d-flex flex-wrap justify-content-between align-items-center pb-4">
-          <h3 class="display-7 mt-3">Handicraft Services</h3>
-          <a href="#" class="btn">View All</a>
+        <h3 class="display-7 mt-3">Handicraft Services</h3>
+        <a href="#" class="btn">View All</a>
       </div>
       <div class="row">
-          <!-- Pottery Making Class section -->
-          <div class="col-lg-4 mb-2">
-              <div class="card border-0 rounded-0">
-                  <div class="card-body text-capitalize">
-                      <div class="card-meta fs-6">
-                          <span class="meta-category"> <a href="#">Pottery</a></span>
-                      </div>
-                      <h4 class="card-title">
-                          <a href="#">Interested in Learning to Craft Beautiful Clay Pots? Join Our Pottery Making Class!</a>
-                      </h4>
-                      <div class="price-comparison">
-                          <span class="current-price">$50</span>
-                          <span class="original-price"><del>$70</del></span>
-                      </div>
-                      <a href="#" class="btn btn-primary">Join Class</a>
-                  </div>
+        <!-- Pottery Making Class section -->
+        <div class="col-lg-4 mb-2">
+          <div class="card border-0 rounded-0">
+            <div class="card-body text-capitalize">
+              <div class="card-meta fs-6">
+                <span class="meta-category"> <a href="#">Pottery</a></span>
               </div>
-          </div>
-          <!-- Art Painting Workshop section -->
-          <div class="col-lg-4 mb-2">
-              <div class="card border-0 rounded-0">
-                  <div class="card-body text-capitalize">
-                      <div class="card-meta fs-6">
-                          <span class="meta-category"> <a href="#">Art</a></span>
-                      </div>
-                      <h4 class="card-title">
-                          <a href="#">Ready to Unleash Your Creativity? Sign Up for Our Art Painting Workshop!</a>
-                      </h4>
-                      <div class="price-comparison">
-                          <span class="current-price">$60</span>
-                          <span class="original-price"><del>$80</del></span>
-                      </div>
-                      <a href="#" class="btn btn-primary">Join Workshop</a>
-                  </div>
+              <h4 class="card-title">
+                <a href="#">Interested in Learning to Craft Beautiful Clay Pots? Join Our Pottery Making Class!</a>
+              </h4>
+              <div class="price-comparison">
+                <span class="current-price">$50</span>
+                <span class="original-price"><del>$70</del></span>
               </div>
-          </div>
-          <!-- Knitting Masterclass section -->
-          <div class="col-lg-4 mb-2">
-              <div class="card border-0 rounded-0">
-                  <div class="card-body text-capitalize">
-                      <div class="card-meta fs-6">
-                          <span class="meta-category"> <a href="#">Crafts</a></span>
-                      </div>
-                      <h4 class="card-title">
-                          <a href="#">Interested in Mastering the Art of Knitting? Enroll in Our Knitting Masterclass!</a>
-                      </h4>
-                      <div class="price-comparison">
-                          <span class="current-price">$55</span>
-                          <span class="original-price"><del>$75</del></span>
-                      </div>
-                      <a href="#" class="btn btn-primary">Enroll Now</a>
-                  </div>
+              <div class="floating-button-container-service">
+                <button id="main-btn" class="main-btn-service">Join Class</button>
+                <div class="sub-buttons-service">
+                  <button class="sub-btn-service whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                    WhatsApp</button>
+                  <button class="sub-btn-service call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                    Call</button>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
+        <!-- Art Painting Workshop section -->
+        <div class="col-lg-4 mb-2">
+          <div class="card border-0 rounded-0">
+            <div class="card-body text-capitalize">
+              <div class="card-meta fs-6">
+                <span class="meta-category"> <a href="#">Art</a></span>
+              </div>
+              <h4 class="card-title">
+                <a href="#">Ready to Unleash Your Creativity? Sign Up for Our Art Painting Workshop!</a>
+              </h4>
+              <div class="price-comparison">
+                <span class="current-price">$60</span>
+                <span class="original-price"><del>$80</del></span>
+              </div>
+              <div class="floating-button-container-service">
+                <button id="main-btn" class="main-btn-service">Join Workshop</button>
+                <div class="sub-buttons-service">
+                  <button class="sub-btn-service whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                    WhatsApp</button>
+                  <button class="sub-btn-service call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                    Call</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Knitting Masterclass section -->
+        <div class="col-lg-4 mb-2">
+          <div class="card border-0 rounded-0">
+            <div class="card-body text-capitalize">
+              <div class="card-meta fs-6">
+                <span class="meta-category"> <a href="#">Crafts</a></span>
+              </div>
+              <h4 class="card-title">
+                <a href="#">Interested in Mastering the Art of Knitting? Enroll in Our Knitting Masterclass!</a>
+              </h4>
+              <div class="price-comparison">
+                <span class="current-price">$55</span>
+                <span class="original-price"><del>$75</del></span>
+              </div>
+              <!-- <a href="#" class="btn btn-primary">Enroll Now</a> -->
+              <div class="floating-button-container-service">
+                <button id="main-btn" class="main-btn-service">Enroll Now</button>
+                <div class="sub-buttons-service">
+                  <button class="sub-btn-service whatsapp-btn" data-phone="7412846037"><i class="fab fa-whatsapp"></i>
+                    WhatsApp</button>
+                  <button class="sub-btn-service call-btn" data-phone="7412846037"><i class="fas fa-phone"></i>
+                    Call</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
 
 
@@ -485,13 +521,14 @@
     .floating-button-container {
       position: fixed;
       bottom: 48%;
-    right: 5%;
+      right: 5%;
     }
+
     @media (max-width: 768px) {
       .floating-button-container {
-      bottom: 30%;
+        bottom: 30%;
+      }
     }
-  }
 
     .main-btn {
       width: 30px;
@@ -552,42 +589,150 @@
   </style>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-  var mainButtons = document.querySelectorAll('.main-btn');
-  mainButtons.forEach(function (mainButton) {
-    mainButton.addEventListener('click', function () {
-      var subButtons = this.parentNode.querySelector('.sub-buttons');
-      if (subButtons.classList.contains("animate")) {
-        subButtons.classList.remove("animate");
-        this.classList.remove("animate");
-      } else {
-        subButtons.classList.add("animate");
-        this.classList.add("animate");
+      var mainButtons = document.querySelectorAll('.main-btn');
+      mainButtons.forEach(function (mainButton) {
+        mainButton.addEventListener('click', function () {
+          var subButtons = this.parentNode.querySelector('.sub-buttons');
+          if (subButtons.classList.contains("animate")) {
+            subButtons.classList.remove("animate");
+            this.classList.remove("animate");
+          } else {
+            subButtons.classList.add("animate");
+            this.classList.add("animate");
+          }
+        });
+      });
+
+      var buttons = document.querySelectorAll('.sub-btn');
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var phoneNumber = button.getAttribute('data-phone');
+          if (button.classList.contains('whatsapp-btn')) {
+            openWhatsApp(phoneNumber);
+          } else if (button.classList.contains('call-btn')) {
+            makeCall(phoneNumber);
+          }
+        });
+      });
+
+      function openWhatsApp(phoneNumber) {
+        var url = "https://wa.me/" + phoneNumber;
+        window.open(url, "_blank");
+      }
+
+      function makeCall(phoneNumber) {
+        var url = "tel:" + phoneNumber;
+        window.open(url);
       }
     });
-  });
 
-  var buttons = document.querySelectorAll('.sub-btn');
-  buttons.forEach(function (button) {
-    button.addEventListener('click', function () {
-      var phoneNumber = button.getAttribute('data-phone');
-      if (button.classList.contains('whatsapp-btn')) {
-        openWhatsApp(phoneNumber);
-      } else if (button.classList.contains('call-btn')) {
-        makeCall(phoneNumber);
+  </script>
+  <style>
+    /* .floating-button-container-service {
+      position: fixed;
+      bottom: 48%;
+      right: 5%;
+    }
+
+    @media (max-width: 768px) {
+      .floating-button-container {
+        bottom: 30%;
+      }
+    } */
+
+    .main-btn-service {
+      border: 1px solid black;
+    border-radius: 60px;
+    padding: 5px 10px;
+    color: black;
+    background: white;
+      font-size: 16px;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sub-buttons-service {
+      display: none;
+      position: absolute;
+      bottom: 60px;
+    }
+
+    .sub-btn-service {
+      display: block;
+      width: 120px;
+      height: 40px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sub-btn-service i {
+      margin-right: 5px;
+    }
+
+    .sub-btn-service:hover {
+      background-color: #0056b3;
+    }
+
+    /* Animation */
+    .main-btn.animate {
+      transform: rotate(45deg);
+    }
+
+    .sub-buttons-service.animate {
+      display: block;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var mainButtons = document.querySelectorAll('.main-btn-service');
+      mainButtons.forEach(function (mainButton) {
+        mainButton.addEventListener('click', function () {
+          var subButtons = this.parentNode.querySelector('.sub-buttons-service');
+          if (subButtons.classList.contains("animate")) {
+            subButtons.classList.remove("animate");
+            this.classList.remove("animate");
+          } else {
+            subButtons.classList.add("animate");
+            this.classList.add("animate");
+          }
+        });
+      });
+
+      var buttons = document.querySelectorAll('.sub-btn-service');
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var phoneNumber = button.getAttribute('data-phone');
+          if (button.classList.contains('whatsapp-btn')) {
+            openWhatsApp(phoneNumber);
+          } else if (button.classList.contains('call-btn')) {
+            makeCall(phoneNumber);
+          }
+        });
+      });
+
+      function openWhatsApp(phoneNumber) {
+        var url = "https://wa.me/" + phoneNumber;
+        window.open(url, "_blank");
+      }
+
+      function makeCall(phoneNumber) {
+        var url = "tel:" + phoneNumber;
+        window.open(url);
       }
     });
-  });
-
-  function openWhatsApp(phoneNumber) {
-    var url = "https://wa.me/" + phoneNumber;
-    window.open(url, "_blank");
-  }
-
-  function makeCall(phoneNumber) {
-    var url = "tel:" + phoneNumber;
-    window.open(url);
-  }
-});
 
   </script>
 
